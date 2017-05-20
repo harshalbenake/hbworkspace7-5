@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <com.harshalbenake.fillview.views.CustomFillView
+        android:layout_width="250dp"
+        android:layout_margin="16dp"
+        android:id="@+id/customfillview"
+        android:layout_height="match_parent" />
+
+    <com.harshalbenake.fillview.views.CustomVerticalSeekbar
+        android:layout_width="wrap_content"
+        android:id="@+id/customverticalseekbar"
+        android:layout_height="match_parent" />
+</LinearLayout>
